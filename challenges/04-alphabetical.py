@@ -2,7 +2,11 @@
 # Try to avoid looking up the exact answer and look at built in functions for
 # lists and strings instead.
 
-string = "hello"
-string_arr = sorted(string)
-string = ''.join(string_arr)
-print(string)
+string = "supercalifragilisticexpialidocious"
+
+def sort_string(string):
+    string_arr = sorted(string)
+    string = ''.join(string_arr)
+    return string
+
+print(sort_string(string))
