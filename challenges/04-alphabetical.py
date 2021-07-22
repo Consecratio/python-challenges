@@ -2,11 +2,9 @@
 # Try to avoid looking up the exact answer and look at built in functions for
 # lists and strings instead.
 
-string = "supercalifragilisticexpialidocious"
+string = "hello"
 
 def sort_string(string):
-    string_arr = sorted(string)
-    string = ''.join(string_arr)
-    return string
+    return ''.join(sorted(string))
 
 print(sort_string(string))
